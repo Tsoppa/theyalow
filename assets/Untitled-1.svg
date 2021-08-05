@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="27" height="27" viewBox="0 0 27 27">
+  <defs>
+    <style>
+      .cls-1, .cls-2 {
+        opacity: 0.37;
+      }
+
+      .cls-2 {
+        fill: #fff;
+        fill-rule: evenodd;
+      }
+    </style>
+  </defs>
+  <image class="cls-1" width="27" height="27" xlink:href="data:img/png;base64,iVBORw0KGgoAAAANSUhEUgAAABsAAAAbCAYAAACN1PRVAAAARElEQVRIie3WwQnAIBQE0flGLNJ+LSlHMQQkHXwhMAN7fteNe7QOXOQ3KxB72UU5gHyJiYmJiYmJiYn9FntP6trLDdYDgxUGVOt9+5wAAAAASUVORK5CYII="/>
+  <path class="cls-2" d="M10.006,6.058A0.974,0.974,0,0,1,10.683,5.1a1.067,1.067,0,0,1,1.214.223l7.784,7.411A0.953,0.953,0,0,1,20,13.5a0.978,0.978,0,0,1-.318.732L11.9,21.668a1.04,1.04,0,0,1-1.214.222,0.99,0.99,0,0,1-.678-0.98V6.058h0Z"/>
+</svg>
