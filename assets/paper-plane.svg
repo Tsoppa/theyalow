@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="110" height="110" viewBox="0 0 110 110">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #f5c506;
+        fill-rule: evenodd;
+      }
+    </style>
+  </defs>
+  <path class="cls-1" d="M73.231,63.806V87.951L62.693,74.277,40.831,96,14,13,95,42.176ZM21.594,20.881L67.663,69.339l5.4-5.366Z"/>
+</svg>
