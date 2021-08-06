@@ -479,7 +479,7 @@ footer {
         background: none;
     }
     .video-container {
-        max-width: 640px;
+        min-width: 640px;
         max-height: 327px;
     }
     .rio-video-bottom ul li {
@@ -488,9 +488,17 @@ footer {
     nav ul {
         box-shadow: none;
     }
+    header {
+        min-width: 640px;
+        justify-content: flex-start;
+        align-items: flex-start;
+    }
     .header-left {
-        padding: 5px;
+        padding: 10px 11px 10px 10px;
         background-color: #4c4c4c;
+    }
+    nav ul li {
+        padding: 5px 24px 5px 24px;
     }
     .header-left ul {
         justify-content: center;
@@ -513,16 +521,19 @@ footer {
     .container {
         padding: 0;
     }
+    .video-container {
+        margin-top: -5px;
+    }
     .video-start-btn {
         margin-top: 120px;
     }
     .rio-video-bottom ul li {
-        margin-top: 65px;
+        margin-top: 55px;
     }
     /* SECOND PAGE */
     .second-page {
         min-height: 174px;
-        box-shadow: none;
+        box-shadow: 0 -3px rgba(255, 255, 255, 0.40), 0 -6px rgba(255, 255, 255, 0.40), 0 -9px rgba(255, 255, 255, 0.40);
     }
     .second-page ul {
         padding: 0;
@@ -544,20 +555,53 @@ footer {
     }
     .for-responsive {
         display: block;
+        padding: 0 30px 0 40px;
     }
-    .for-responsive li p {
-        color: #000;
+    .for-responsive li {
+        padding: 10px;
+    }
+    .for-responsive li span {
+        position: relative;
+        left: 20px;
+        bottom: 7px;
+        color: #afaeae;
+    }
+    .for-responsive li input {
+        padding: 7px 25px 7px 25px;
+        flex: 1;
+    }
+    .for-responsive-fourth {
+        border-radius: 50%;
+    }
+    .for-responsive-first {
+        background: url(assets/message.svg) no-repeat;
+        width: 1000px;
+    }
+    .for-responsive-second {
+        background: url(assets/message.svg) no-repeat;
+        width: 1000px;
+    }
+    .for-responsive-third {
+        background: url(assets/message.svg) no-repeat;
+        width: 1000px;
+    }
+    .for-responsive li span {
+        font-size: 13px;
+    }
+    .twitter-logo {
+        width: 200px;
+        margin: 20px 20px 20px 70px;
     }
     /* THIRD PAGE */
     .third-page {
         display: block;
         background: none;
+        min-height: 550px;
     }
     .third-page-mid {
         display: block;
     }
     .third-page-container {
-        max-height: 490px;
         padding: 0;
     }
     .first-second-boxes, .third-page-mid {
@@ -568,7 +612,7 @@ footer {
         padding: 10px 0 10px 0;
     }
     .first-box p {
-        padding: 10px 10px 10px 10px;
+        padding: 3px 10px 3px 10px;
         font-size: 30px;
     }
     .plus {
@@ -578,7 +622,7 @@ footer {
     .third-box {
         display: flex;
         margin: 0;
-        padding: 10px 0 0 0;
+        padding: 41px 0 41px 0;
         height: auto;
         background-color: #f5c507;
     }
